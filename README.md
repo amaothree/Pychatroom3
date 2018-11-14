@@ -17,7 +17,7 @@ System Required
 Install python3
 
 Linux (work)  
-Windows (not test, I don't know)  
+Windows (client can't work. *OSError: [WinError 10038]* )  
 Mac/OSX (not test)
 
 How to use
@@ -53,3 +53,5 @@ Admin Account
 -------------
 
 I set a admin account default, you can use it to kick someone (the only special function now), you need to type "Admin" as the nickname. The default password is "123", it is unsafe, you can change it in the code of server, and restart server.
+
+*&copy;Samuel Sui is the owner/builder of everything in this project.*
