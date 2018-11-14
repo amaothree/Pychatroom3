@@ -29,7 +29,8 @@ Client Design
 -----
 
 The client will try to connect to the specified address. The thread stdin and stdout will always watch
-user's type-in and the boardcast from the server and put/get the data to/from the I/O stream.
+user's type-in and the boardcast from the server and put/get the data to/from the I/O stream then pass
+this data via the socket.
 
 Pros and Cons
 ----
@@ -42,7 +43,7 @@ Pros and Cons
  Cons
  > * Can't build private chat now. (functional weakness)
  > * Can't use to world-wide chat, that need NAT.
- > * After server restart, every users' status will disappear. (functional weakness) *(I really should store the log in a file.)*
+ > * After server restart, every users' status will disappear. (functional weakness) *(I really should to store the log in a file.)*
  > * GUI not support now. (I'm not good at PyQt)
    
    
